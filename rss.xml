@@ -5,8 +5,32 @@
     <link>https://landing.exifnd.com/</link>
     <description>사진 설정·EXIF 궁금증에 바로 답하는 짧은 글 (ko/en/es/ja)</description>
     <language>ko</language>
-    <lastBuildDate>Sun, 15 Nov 2026 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 09:00:00 +0900</lastBuildDate>
     <atom:link href="https://landing.exifnd.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>광각과 망원의 차이: 화각과 활용 기준</title>
+      <link>https://landing.exifnd.com/ko/wide-vs-telephoto/</link>
+      <guid isPermaLink="true">https://landing.exifnd.com/ko/wide-vs-telephoto/</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+      <description>광각은 넓은 범위를, 망원은 먼 피사체를 크게 담습니다. 초점거리별 화각 기준과 풍경·인물·스포츠에서의 활용법을 수치와 함께 정리했습니다.</description>
+      <dc:language>ko</dc:language>
+    </item>
+    <item>
+      <title>sRGB vs Adobe RGB: 어떤 색 공간을 써야 할까?</title>
+      <link>https://landing.exifnd.com/ko/srgb-vs-adobe-rgb/</link>
+      <guid isPermaLink="true">https://landing.exifnd.com/ko/srgb-vs-adobe-rgb/</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+      <description>화면과 웹에 올릴 사진은 sRGB, 인쇄와 와이드 색역 환경에서는 Adobe RGB가 의미 있습니다. 두 색 공간의 차이와 선택 기준을 체크리스트로 정리했습니다.</description>
+      <dc:language>ko</dc:language>
+    </item>
+    <item>
+      <title>피사계 심도란? 선명한 범위를 조절하는 법</title>
+      <link>https://landing.exifnd.com/ko/depth-of-field/</link>
+      <guid isPermaLink="true">https://landing.exifnd.com/ko/depth-of-field/</guid>
+      <pubDate>Mon, 16 Nov 2026 09:00:00 +0900</pubDate>
+      <description>피사계 심도는 사진에서 선명하게 보이는 범위입니다. 조리개, 피사체 거리, 초점거리로 정해지며, 인물과 풍경 예시로 계산하는 방법까지 정리했습니다.</description>
+      <dc:language>ko</dc:language>
+    </item>
     <item>
       <title>広角と望遠の違い：画角と使い分けの目安</title>
       <link>https://landing.exifnd.com/ja/wide-vs-telephoto/</link>

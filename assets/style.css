@@ -100,3 +100,11 @@ h1,h2,h3,h4,.hc-title,.lens-name{word-break:keep-all;overflow-wrap:break-word}
 @media (prefers-reduced-motion:reduce){.review-card,.guide-card,.hero-card{transition:none}.review-card:hover,.guide-card:hover,.hero-card:hover{transform:none}}
 @media (max-width:900px){.nav{padding:1rem 1.5rem}.nav-links{display:none}.theme-toggle{margin-left:auto}.hero{padding:8rem 1.5rem 4rem}.brand-filter{padding:2rem 1.5rem}.compare-section,.buying-guides{padding:4rem 1.5rem}.reviews-section{padding:4rem 1.5rem}.newsletter{padding:4rem 1.5rem}.site-footer{padding:3rem 1.5rem 2rem}.footer-grid{grid-template-columns:1fr}.brand-list{gap:.8rem}.brand-item{padding:.6rem 1.2rem}.review-grid{grid-template-columns:1fr}}
 @media (max-width:600px){.guide-grid{grid-template-columns:1fr}.hero-search button{padding:1.1rem 1.2rem}.hero-cards.n1 .hero-card.has-img{flex-direction:column}.hero-cards.n1 .has-img .hc-img{flex:none;aspect-ratio:16/9}h1{font-size:25px}body{font-size:16px}}
+
+.hub-note{max-width:1100px;margin:0 auto 14px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--box);font-size:14px;color:var(--muted)}
+.hub-note a{color:var(--accent-strong);font-weight:600;margin-left:6px}
+.hero-tag-item.on{background:var(--accent);border-color:var(--accent);color:var(--accent-fg)}
+.lang-banner{margin:0 0 18px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--box);font-size:14px;line-height:1.5}
+.lang-banner a{font-weight:600;color:var(--accent-strong);margin-left:6px}
+.otherlangs{margin:-4px 0 14px;font-size:14px;color:var(--muted)}
+.otherlangs a{margin-left:10px;color:var(--accent-strong);font-weight:600}
