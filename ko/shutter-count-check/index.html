@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>셔터카운트 확인하는 법 | 사진 파일 하나로 확인 (니콘·캐논 R)</title>
+<meta name="description" content="셔터카운트는 카메라 메뉴보다 사진 원본 파일에서 확인합니다. 중고 카메라 사기 전, 파일 하나로 셔터 횟수를 읽는 방법과 숫자 해석법을 정리했습니다.">
+<link rel="canonical" href="https://landing.exifnd.com/ko/shutter-count-check/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ExifLens">
+<meta property="og:title" content="셔터카운트 확인하는 법 | 사진 파일 하나로 확인 (니콘·캐논 R)">
+<meta property="og:description" content="셔터카운트는 카메라 메뉴보다 사진 원본 파일에서 확인합니다. 중고 카메라 사기 전, 파일 하나로 셔터 횟수를 읽는 방법과 숫자 해석법을 정리했습니다.">
+<meta property="og:url" content="https://landing.exifnd.com/ko/shutter-count-check/">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/assets/style.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NV0DZ95ZEG"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"],wait_for_update:500});
+gtag('js',new Date());
+if(['localhost','127.0.0.1','[::1]'].indexOf(location.hostname)===-1&&!/(?:^|; )dev_exclude=1(?:;|$)/.test(document.cookie)){gtag('config','G-NV0DZ95ZEG');}</script>
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "셔터카운트 확인하는 법: 사진 파일 하나면 됩니다", "description": "셔터카운트는 카메라 메뉴보다 사진 원본 파일에서 확인합니다. 중고 카메라 사기 전, 파일 하나로 셔터 횟수를 읽는 방법과 숫자 해석법을 정리했습니다.", "inLanguage": "ko", "datePublished": "2026-11-15", "dateModified": "2026-11-15", "author": {"@type": "Organization", "name": "ExifLens", "url": "https://exifnd.com"}, "publisher": {"@type": "Organization", "name": "ExifLens", "url": "https://exifnd.com"}, "mainEntityOfPage": "https://landing.exifnd.com/ko/shutter-count-check/"}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "셔터카운트가 몇 번이면 많은 건가요?", "acceptedAnswer": {"@type": "Answer", "text": "바디 등급마다 기준이 다릅니다. 정격 수명 대비 비율로 보는 것이 가장 정확합니다. 같은 10만 회라도 정격 10만 회 바디와 정격 30만 회 바디는 의미가 전혀 다릅니다."}}, {"@type": "Question", "name": "스마트폰 사진도 셔터카운트가 있나요?", "acceptedAnswer": {"@type": "Answer", "text": "스마트폰에는 기계식 셔터가 없어 셔터카운트라는 개념이 없습니다. 셔터카운트는 기계식 셔터가 있는 카메라에서 의미가 있는 값입니다."}}, {"@type": "Question", "name": "카메라 메뉴에서 바로 볼 수는 없나요?", "acceptedAnswer": {"@type": "Answer", "text": "대부분의 카메라는 일반 메뉴에 이 값을 보여 주지 않습니다. 그래서 사진 파일의 촬영 정보에서 읽는 방식을 많이 씁니다. 모델에 따라 서비스 모드나 별도 앱을 쓰는 경우도 있습니다."}}]}]</script>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="https://exifnd.com/ko?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=shutter-count-check&amp;utm_content=header">ExifLens</a><span class="tag">사진 설정·EXIF 궁금증 바로 답변</span></div></header>
+<main class="wrap">
+<article>
+<h1>셔터카운트 확인하는 법: 사진 파일 하나면 됩니다</h1>
+<p class="meta">업데이트: 2026-11-15</p>
+<div class="answer"><strong>한 줄 답</strong><p>대부분의 카메라는 셔터 횟수를 메뉴에 보여 주지 않습니다. 대신 카메라에서 갓 나온 <strong>원본 사진 파일(EXIF의 메이커노트)</strong>에 기록돼 있어서, 그 파일을 읽으면 확인됩니다. 니콘은 많은 모델이 파일에서 바로 읽히고, 캐논은 EOS R 계열 일부 모델의 CR3 파일에서 읽힙니다.</p></div>
+<aside class="cta cta-top"><p class="cta-title">사진 파일만 끌어다 놓으면 셔터카운트가 나옵니다</p><p>브라우저 안에서 바로 읽고 파일은 밖으로 나가지 않습니다. 회원가입도 필요 없습니다.</p><p class="cta-btns"><a class="btn" href="https://exifnd.com/ko/tools/shutter-count-checker?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=shutter-count-check&amp;utm_content=top-1">셔터카운트 체커 열기 →</a> <a class="btn ghost" href="https://exifnd.com/ko/guides/shutter-count-checker-guide?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=shutter-count-check&amp;utm_content=top-2">자세한 가이드 보기 →</a> </p></aside>
+
+<h2>확인 순서 (3단계)</h2>
+<ol>
+<li><strong>원본 파일을 받습니다.</strong> 중고 거래라면 판매자에게 “그 자리에서 찍은 JPEG 또는 RAW 원본”을 요청하세요. 스크린샷이나 메신저로 받은 사진에는 이 정보가 없습니다.</li>
+<li><strong>체커에 파일을 넣습니다.</strong> <a href="https://exifnd.com/ko/tools/shutter-count-checker?utm_source=landing&utm_medium=referral&utm_campaign=shutter-count-check&utm_content=inline">셔터카운트 체커</a>에 파일을 끌어다 놓으면 기록된 횟수를 읽어 줍니다.</li>
+<li><strong>숫자를 정격과 비교합니다.</strong> 같은 등급 바디의 제조사 정격 수명으로 나누면 얼마나 썼는지 감이 옵니다.</li>
+</ol>
+
+<h2>숫자는 이렇게 해석합니다</h2>
+<p>셔터카운트는 자동차 주행거리계와 비슷합니다. 숫자 자체보다 <strong>정격 대비 몇 퍼센트인지</strong>가 중요합니다. 예를 들어 정격 15만 회인 바디에서 6만이 나왔다면 이렇게 계산합니다.</p>
+<ul>
+<li>60,000 ÷ 150,000 = 0.4 → 정격의 약 40퍼센트 사용</li>
+<li>150,000 − 60,000 = 90,000 → 이론상 약 9만 회 남음</li>
+</ul>
+<p>정격은 보증 횟수가 아니라 제조사의 목표치라서, 넘겨서도 멀쩡한 셔터가 많습니다. 다만 정격에 가까울수록 수리 가능성은 커지니 가격 협상이나 반품 가능 여부와 함께 보세요. 입문기는 10만 회 안팎, 중급 이상은 그보다 높은 정격을 두는 경우가 많지만 모델마다 달라서 <strong>해당 모델의 정격을 꼭 따로 확인</strong>해야 합니다.</p>
+
+<h2>값이 안 나올 때 원인</h2>
+<ul>
+<li><strong>편집·재저장한 파일:</strong> 편집 프로그램이나 메신저를 거친 JPEG는 메이커노트가 지워지기 쉽습니다. 숫자가 없다고 0회라는 뜻이 아니라, 다른 원본 파일이 필요하다는 신호입니다.</li>
+<li><strong>아직 지원하지 않는 모델:</strong> 셔터카운트는 표준 EXIF 항목이 아니라 제조사마다 저장 방식이 달라서, 공개된 정보가 있는 모델부터 읽을 수 있습니다. 미지원이라고 해서 카메라 상태가 나쁘다는 뜻은 아닙니다.</li>
+<li><strong>전자셔터 위주 사용:</strong> 미러리스는 전자셔터로 찍으면 기계식 셔터가 움직이지 않아 카운트가 낮게 나올 수 있습니다. 숫자가 낮아도 다른 부분(센서 먼지, 마운트 마모, 침수 이력)은 따로 확인하세요.</li>
+</ul>
+
+<h2>자주 묻는 질문</h2>
+<details><summary>셔터카운트가 몇 번이면 많은 건가요?</summary><div><p>바디 등급마다 기준이 다릅니다. 정격 수명 대비 비율로 보는 것이 가장 정확합니다. 같은 10만 회라도 정격 10만 회 바디와 정격 30만 회 바디는 의미가 전혀 다릅니다.</p></div></details>
+<details><summary>스마트폰 사진도 셔터카운트가 있나요?</summary><div><p>스마트폰에는 기계식 셔터가 없어 셔터카운트라는 개념이 없습니다. 셔터카운트는 기계식 셔터가 있는 카메라에서 의미가 있는 값입니다.</p></div></details>
+<details><summary>카메라 메뉴에서 바로 볼 수는 없나요?</summary><div><p>대부분의 카메라는 일반 메뉴에 이 값을 보여 주지 않습니다. 그래서 사진 파일의 촬영 정보에서 읽는 방식을 많이 씁니다. 모델에 따라 서비스 모드나 별도 앱을 쓰는 경우도 있습니다.</p></div></details>
+
+<aside class="cta cta-bottom"><p class="cta-title">사진 파일만 끌어다 놓으면 셔터카운트가 나옵니다</p><p>브라우저 안에서 바로 읽고 파일은 밖으로 나가지 않습니다. 회원가입도 필요 없습니다.</p><p class="cta-btns"><a class="btn" href="https://exifnd.com/ko/tools/shutter-count-checker?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=shutter-count-check&amp;utm_content=bottom-1">셔터카운트 체커 열기 →</a> <a class="btn ghost" href="https://exifnd.com/ko/guides/shutter-count-checker-guide?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=shutter-count-check&amp;utm_content=bottom-2">자세한 가이드 보기 →</a> </p></aside>
+<h2>함께 보면 좋은 글</h2>
+<ul class="related"><li><a href="/ko/flash-guide-number/">플래시 가이드넘버 계산법: 거리와 조리개값 구하기</a></li><li><a href="/ko/remove-exif-gps/">사진 위치정보(GPS) 지우는 법: 올리기 전에 EXIF 삭제</a></li><li><a href="https://exifnd.com/ko/guides/shutter-count-checker-guide?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=shutter-count-check&amp;utm_content=related">셔터카운트란? 중고 카메라 구매 전 확인해야 하는 이유</a></li></ul>
+</article>
+</main>
+<footer><div class="wrap"><p>ExifLens는 사진 EXIF 확인과 촬영 계산 도구를 무료로 제공합니다.</p><p><a href="https://exifnd.com/ko?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=shutter-count-check&amp;utm_content=footer">exifnd.com 홈</a> · <a href="https://exifnd.com/ko/privacy">개인정보 처리방침</a> · <a href="/">전체 글 보기</a></p></div></footer>
+</body>
+</html>

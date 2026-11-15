@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>플래시 가이드넘버 계산법 | 거리·조리개값 구하는 공식</title>
+<meta name="description" content="가이드넘버 = 조리개값 × 거리. 플래시 사양표의 GN을 현장에서 쓰는 조리개값과 거리로 바꾸는 계산과 ISO·출력별 보정 방법을 예시로 정리했습니다.">
+<link rel="canonical" href="https://landing.exifnd.com/ko/flash-guide-number/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ExifLens">
+<meta property="og:title" content="플래시 가이드넘버 계산법 | 거리·조리개값 구하는 공식">
+<meta property="og:description" content="가이드넘버 = 조리개값 × 거리. 플래시 사양표의 GN을 현장에서 쓰는 조리개값과 거리로 바꾸는 계산과 ISO·출력별 보정 방법을 예시로 정리했습니다.">
+<meta property="og:url" content="https://landing.exifnd.com/ko/flash-guide-number/">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/assets/style.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NV0DZ95ZEG"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"],wait_for_update:500});
+gtag('js',new Date());
+if(['localhost','127.0.0.1','[::1]'].indexOf(location.hostname)===-1&&!/(?:^|; )dev_exclude=1(?:;|$)/.test(document.cookie)){gtag('config','G-NV0DZ95ZEG');}</script>
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "플래시 가이드넘버 계산법: 거리와 조리개값 구하기", "description": "가이드넘버 = 조리개값 × 거리. 플래시 사양표의 GN을 현장에서 쓰는 조리개값과 거리로 바꾸는 계산과 ISO·출력별 보정 방법을 예시로 정리했습니다.", "inLanguage": "ko", "datePublished": "2026-11-15", "dateModified": "2026-11-15", "author": {"@type": "Organization", "name": "ExifLens", "url": "https://exifnd.com"}, "publisher": {"@type": "Organization", "name": "ExifLens", "url": "https://exifnd.com"}, "mainEntityOfPage": "https://landing.exifnd.com/ko/flash-guide-number/"}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "가이드넘버가 클수록 좋은 플래시인가요?", "acceptedAnswer": {"@type": "Answer", "text": "같은 조건(ISO, 줌, 단위)에서 비교했을 때 클수록 더 멀리·작은 조리개로 쓸 수 있는 힘이 큽니다. 다만 제조사마다 측정 조건이 달라서 숫자만으로 비교하기는 어렵습니다."}}, {"@type": "Question", "name": "GN이 피트 기준이면 어떻게 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "피트 기준 GN은 거리도 피트로 넣어 계산하면 됩니다. 미터 값으로 바꾸려면 피트 GN을 약 3.28로 나누세요."}}, {"@type": "Question", "name": "TTL 플래시도 가이드넘버 계산이 필요한가요?", "acceptedAnswer": {"@type": "Answer", "text": "자동 조광(TTL)에서는 카메라가 출력을 정해 주니 거의 필요 없지만, 수동 출력이나 외부 조명을 쓸 때는 이 계산이 기본이 됩니다."}}]}]</script>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="https://exifnd.com/ko?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=flash-guide-number&amp;utm_content=header">ExifLens</a><span class="tag">사진 설정·EXIF 궁금증 바로 답변</span></div></header>
+<main class="wrap">
+<article>
+<h1>플래시 가이드넘버 계산법: 거리와 조리개값 구하기</h1>
+<p class="meta">업데이트: 2026-11-15</p>
+<div class="answer"><strong>한 줄 답</strong><p><strong>가이드넘버(GN) = 조리개값 × 거리</strong>입니다(미터 기준, ISO 100). 그래서 조리개값 = GN ÷ 거리, 거리 = GN ÷ 조리개값으로 바로 구할 수 있어요. ISO를 올리면 GN은 √(ISO ÷ 100)배가 되고, 플래시 출력을 줄이면 그 출력 비율의 제곱근만큼 줄어듭니다.</p></div>
+<aside class="cta cta-top"><p class="cta-title">계산이 번거로우면 계산기에 넣으세요</p><p>GN, ISO, 거리만 넣으면 필요한 조리개값과 최대 거리를 계산해 줍니다.</p><p class="cta-btns"><a class="btn" href="https://exifnd.com/ko/tools/flash-guide-number-calculator?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=flash-guide-number&amp;utm_content=top-1">플래시 가이드넘버 계산기 열기 →</a> <a class="btn ghost" href="https://exifnd.com/ko/guides/flash-guide-number-calculator-guide?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=flash-guide-number&amp;utm_content=top-2">자세한 가이드 보기 →</a> </p></aside>
+
+<h2>공식 3줄 요약</h2>
+<ul>
+<li><code>GN = F값 × 거리(m)</code></li>
+<li><code>F값 = GN ÷ 거리</code></li>
+<li><code>거리 = GN ÷ F값</code></li>
+</ul>
+<p>사양표의 GN은 보통 <strong>ISO 100, 최대 출력, 특정 줌 위치</strong>에서 잰 값입니다. 단위가 미터인지 피트인지도 먼저 확인하세요.</p>
+
+<h2>예시 1: 피사체가 4미터 거리</h2>
+<p>GN 40인 플래시로 4미터 앞의 사람을 찍는다면 40 ÷ 4 = <strong>f/10</strong>입니다. 렌즈의 가까운 눈금(f/9, f/11) 중 하나를 고르면 됩니다. 반대로 f/4를 쓰고 싶다면 최대 거리는 40 ÷ 4 = 10미터입니다.</p>
+
+<h2>예시 2: ISO를 올리면</h2>
+<p>ISO가 4배(100 → 400)가 되면 GN은 √4 = 2배가 되어 실질 GN 80이 됩니다. 같은 4미터에서 필요한 조리개값은 80 ÷ 4 = <strong>f/20</strong>이라 렌즈가 못 조이는 경우가 많습니다. 이럴 땐 ISO를 내리거나 플래시 출력을 줄이세요.</p>
+<div class="tablewrap"><table><thead><tr><th>ISO</th><th>GN 배율</th><th>GN 40 기준 실질 GN</th></tr></thead><tbody>
+<tr><td>100</td><td>×1</td><td>40</td></tr><tr><td>200</td><td>×1.41</td><td>56.6</td></tr><tr><td>400</td><td>×2</td><td>80</td></tr><tr><td>800</td><td>×2.83</td><td>113</td></tr>
+</tbody></table></div>
+
+<h2>예시 3: 출력을 낮추면</h2>
+<p>1/2 출력이면 GN은 약 0.71배, 1/4 출력이면 0.5배, 1/16 출력이면 0.25배가 됩니다. GN 40 플래시를 1/4 출력으로 쓰면 실질 GN은 20이라 4미터에서는 20 ÷ 4 = <strong>f/5</strong>입니다.</p>
+
+<h2>실전에서 틀리기 쉬운 점</h2>
+<ul>
+<li><strong>줌 위치:</strong> 줌 헤드 플래시는 줌이 길수록 빛이 모여 GN이 커집니다. 사양표의 어느 줌 값인지 확인하세요.</li>
+<li><strong>바운스·디퓨저:</strong> 천장 바운스나 소프트박스를 쓰면 빛이 줄어 실제 필요한 조리개값은 더 열려야 합니다.</li>
+<li><strong>동조 속도:</strong> 조리개는 맞췄는데 셔터 속도가 동조 속도를 넘으면 화면 일부가 검게 나옵니다.</li>
+</ul>
+
+<h2>자주 묻는 질문</h2>
+<details><summary>가이드넘버가 클수록 좋은 플래시인가요?</summary><div><p>같은 조건(ISO, 줌, 단위)에서 비교했을 때 클수록 더 멀리·작은 조리개로 쓸 수 있는 힘이 큽니다. 다만 제조사마다 측정 조건이 달라서 숫자만으로 비교하기는 어렵습니다.</p></div></details>
+<details><summary>GN이 피트 기준이면 어떻게 하나요?</summary><div><p>피트 기준 GN은 거리도 피트로 넣어 계산하면 됩니다. 미터 값으로 바꾸려면 피트 GN을 약 3.28로 나누세요.</p></div></details>
+<details><summary>TTL 플래시도 가이드넘버 계산이 필요한가요?</summary><div><p>자동 조광(TTL)에서는 카메라가 출력을 정해 주니 거의 필요 없지만, 수동 출력이나 외부 조명을 쓸 때는 이 계산이 기본이 됩니다.</p></div></details>
+
+<aside class="cta cta-bottom"><p class="cta-title">계산이 번거로우면 계산기에 넣으세요</p><p>GN, ISO, 거리만 넣으면 필요한 조리개값과 최대 거리를 계산해 줍니다.</p><p class="cta-btns"><a class="btn" href="https://exifnd.com/ko/tools/flash-guide-number-calculator?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=flash-guide-number&amp;utm_content=bottom-1">플래시 가이드넘버 계산기 열기 →</a> <a class="btn ghost" href="https://exifnd.com/ko/guides/flash-guide-number-calculator-guide?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=flash-guide-number&amp;utm_content=bottom-2">자세한 가이드 보기 →</a> </p></aside>
+<h2>함께 보면 좋은 글</h2>
+<ul class="related"><li><a href="/ko/remove-exif-gps/">사진 위치정보(GPS) 지우는 법: 올리기 전에 EXIF 삭제</a></li><li><a href="/ko/shutter-count-check/">셔터카운트 확인하는 법: 사진 파일 하나면 됩니다</a></li><li><a href="https://exifnd.com/ko/guides/flash-sync-speed-explained?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=flash-guide-number&amp;utm_content=related">플래시 동조 속도란?</a></li></ul>
+</article>
+</main>
+<footer><div class="wrap"><p>ExifLens는 사진 EXIF 확인과 촬영 계산 도구를 무료로 제공합니다.</p><p><a href="https://exifnd.com/ko?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=flash-guide-number&amp;utm_content=footer">exifnd.com 홈</a> · <a href="https://exifnd.com/ko/privacy">개인정보 처리방침</a> · <a href="/">전체 글 보기</a></p></div></footer>
+</body>
+</html>

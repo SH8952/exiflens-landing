@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>sRGB vs Adobe RGB: Which Color Space Should You Use?</title>
+<meta name="description" content="Use sRGB for photos shown on screens and the web. Adobe RGB only pays off with a wide-gamut workflow and print. Here is how to choose, with a simple checklist.">
+<link rel="canonical" href="https://landing.exifnd.com/en/srgb-vs-adobe-rgb/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ExifLens">
+<meta property="og:title" content="sRGB vs Adobe RGB: Which Color Space Should You Use?">
+<meta property="og:description" content="Use sRGB for photos shown on screens and the web. Adobe RGB only pays off with a wide-gamut workflow and print. Here is how to choose, with a simple checklist.">
+<meta property="og:url" content="https://landing.exifnd.com/en/srgb-vs-adobe-rgb/">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="/assets/style.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NV0DZ95ZEG"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"],wait_for_update:500});
+gtag('js',new Date());
+if(['localhost','127.0.0.1','[::1]'].indexOf(location.hostname)===-1&&!/(?:^|; )dev_exclude=1(?:;|$)/.test(document.cookie)){gtag('config','G-NV0DZ95ZEG');}</script>
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "sRGB vs Adobe RGB: which one should you use?", "description": "Use sRGB for photos shown on screens and the web. Adobe RGB only pays off with a wide-gamut workflow and print. Here is how to choose, with a simple checklist.", "inLanguage": "en", "datePublished": "2026-11-15", "dateModified": "2026-11-15", "author": {"@type": "Organization", "name": "ExifLens", "url": "https://exifnd.com"}, "publisher": {"@type": "Organization", "name": "ExifLens", "url": "https://exifnd.com"}, "mainEntityOfPage": "https://landing.exifnd.com/en/srgb-vs-adobe-rgb/"}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Should I shoot in Adobe RGB to be safe?", "acceptedAnswer": {"@type": "Answer", "text": "Not usually. If you shoot RAW, the setting changes little. If you shoot JPEG, Adobe RGB files can look dull when shared unless you convert them to sRGB first."}}, {"@type": "Question", "name": "Do I need an Adobe RGB monitor?", "acceptedAnswer": {"@type": "Answer", "text": "Only if you work with print or professional color workflows. A standard sRGB monitor shows sRGB photos correctly and is fine for most photographers."}}, {"@type": "Question", "name": "Can I convert Adobe RGB to sRGB later?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Convert with your editor's export settings. The conversion clips colors that sRGB cannot show, so some very saturated areas will look slightly different."}}]}]</script>
+</head>
+<body>
+<header class="top"><div class="wrap"><a class="brand" href="https://exifnd.com/en?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=srgb-vs-adobe-rgb&amp;utm_content=header">ExifLens</a><span class="tag">Quick answers on camera settings and EXIF</span></div></header>
+<main class="wrap">
+<article>
+<h1>sRGB vs Adobe RGB: which one should you use?</h1>
+<p class="meta">Updated: 2026-11-15</p>
+<div class="answer"><strong>Short answer</strong><p>For almost everything that will be viewed on a phone, website or social feed, <strong>use sRGB</strong>. Adobe RGB holds more saturated greens and cyans, but it only helps if your whole chain (camera, editor, monitor, printer) is color-managed. Otherwise the photo can look flat and dull.</p></div>
+<aside class="cta cta-top"><p class="cta-title">Want the full picture with examples?</p><p>Our guide explains where the two spaces differ and how to set them up in camera and editor. You can also read the EXIF data of any photo for free.</p><p class="cta-btns"><a class="btn" href="https://exifnd.com/en/guides/color-space-srgb-vs-adobe-rgb?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=srgb-vs-adobe-rgb&amp;utm_content=top-1">Read the full color space guide →</a> <a class="btn ghost" href="https://exifnd.com/en?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=srgb-vs-adobe-rgb&amp;utm_content=top-2">Open the free EXIF viewer →</a> </p></aside>
+
+<h2>The short comparison</h2>
+<div class="tablewrap"><table><thead><tr><th></th><th>sRGB</th><th>Adobe RGB (1998)</th></tr></thead><tbody>
+<tr><td>Gamut</td><td>Smaller; matches most screens</td><td>Wider, especially in greens and cyans (commonly cited as about 35% larger)</td></tr>
+<tr><td>Best for</td><td>Web, social media, phones, email, most printing services</td><td>Print workflows and wide-gamut monitors</td></tr>
+<tr><td>Risk</td><td>Very low</td><td>Looks muted in apps that ignore color profiles</td></tr>
+</tbody></table></div>
+
+<h2>Why Adobe RGB can look dull online</h2>
+<p>An Adobe RGB file stores bigger color values. If a browser or app does not read the embedded profile, it treats those values as sRGB and shows them with less saturation. Most phones and many websites handle profiles correctly, but you cannot control every viewer, so sRGB is the safe default for sharing.</p>
+
+<h2>Does the camera setting matter if you shoot RAW?</h2>
+<p>No. In RAW mode the color space setting does not change the sensor data; it mostly affects the JPEG preview and the tag saved in the file. You choose the real color space when you export from your RAW editor. If you shoot JPEG only, the camera setting is the one that counts, and sRGB is the safer choice.</p>
+
+<h2>Simple checklist</h2>
+<ul>
+<li>Posting online or sending to clients? Export in <strong>sRGB</strong>.</li>
+<li>Printing at home or at a lab that accepts Adobe RGB and you have a wide-gamut monitor? Adobe RGB can help.</li>
+<li>Not sure? Export sRGB. You will rarely regret it.</li>
+<li>Always embed the color profile when you export.</li>
+</ul>
+
+<h2>FAQ</h2>
+<details><summary>Should I shoot in Adobe RGB to be safe?</summary><div><p>Not usually. If you shoot RAW, the setting changes little. If you shoot JPEG, Adobe RGB files can look dull when shared unless you convert them to sRGB first.</p></div></details>
+<details><summary>Do I need an Adobe RGB monitor?</summary><div><p>Only if you work with print or professional color workflows. A standard sRGB monitor shows sRGB photos correctly and is fine for most photographers.</p></div></details>
+<details><summary>Can I convert Adobe RGB to sRGB later?</summary><div><p>Yes. Convert with your editor's export settings. The conversion clips colors that sRGB cannot show, so some very saturated areas will look slightly different.</p></div></details>
+
+<aside class="cta cta-bottom"><p class="cta-title">Want the full picture with examples?</p><p>Our guide explains where the two spaces differ and how to set them up in camera and editor. You can also read the EXIF data of any photo for free.</p><p class="cta-btns"><a class="btn" href="https://exifnd.com/en/guides/color-space-srgb-vs-adobe-rgb?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=srgb-vs-adobe-rgb&amp;utm_content=bottom-1">Read the full color space guide →</a> <a class="btn ghost" href="https://exifnd.com/en?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=srgb-vs-adobe-rgb&amp;utm_content=bottom-2">Open the free EXIF viewer →</a> </p></aside>
+<h2>Related reading</h2>
+<ul class="related"><li><a href="https://exifnd.com/en/guides/understanding-depth-of-field?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=srgb-vs-adobe-rgb&amp;utm_content=related">Understanding depth of field</a></li><li><a href="https://exifnd.com/en/guides/raw-vs-jpeg-which-should-you-shoot?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=srgb-vs-adobe-rgb&amp;utm_content=related">RAW vs JPEG: which should you shoot?</a></li></ul>
+</article>
+</main>
+<footer><div class="wrap"><p>ExifLens offers free tools for reading photo EXIF data and planning shots.</p><p><a href="https://exifnd.com/en?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=srgb-vs-adobe-rgb&amp;utm_content=footer">exifnd.com home</a> · <a href="https://exifnd.com/en/privacy">Privacy policy</a> · <a href="/">All articles</a></p></div></footer>
+</body>
+</html>
