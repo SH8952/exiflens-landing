@@ -5,8 +5,16 @@
     <link>https://landing.exifnd.com/</link>
     <description>사진 설정·EXIF 궁금증에 바로 답하는 짧은 글 (ko/en/es/ja)</description>
     <language>ko</language>
-    <lastBuildDate>Mon, 16 Nov 2026 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 09:00:00 +0900</lastBuildDate>
     <atom:link href="https://landing.exifnd.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ND1000 쓰면 1/125초가 몇 초가 될까: ND 단수별 환산표</title>
+      <link>https://landing.exifnd.com/ko/nd-filter-shutter-conversion/</link>
+      <guid isPermaLink="true">https://landing.exifnd.com/ko/nd-filter-shutter-conversion/</guid>
+      <pubDate>Tue, 17 Nov 2026 09:00:00 +0900</pubDate>
+      <description>ND8·ND64·ND1000을 끼우면 셔터스피드가 몇 초로 바뀌는지 1/125초·1/30초·1/8초 기준 환산표와 거꾸로 필요한 ND를 고르는 계산법을 정리했습니다.</description>
+      <dc:language>ko</dc:language>
+    </item>
     <item>
       <title>광각과 망원의 차이: 화각과 활용 기준</title>
       <link>https://landing.exifnd.com/ko/wide-vs-telephoto/</link>

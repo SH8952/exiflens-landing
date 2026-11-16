@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ND1000 쓰면 1/125초가 몇 초? ND 단수별 셔터스피드 환산표</title>
+<meta name="description" content="ND8·ND64·ND1000을 끼우면 셔터스피드가 몇 초로 바뀌는지 1/125초·1/30초·1/8초 기준 환산표와 거꾸로 필요한 ND를 고르는 계산법을 정리했습니다.">
+<link rel="canonical" href="https://landing.exifnd.com/ko/nd-filter-shutter-conversion/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="ExifLens">
+<meta property="og:title" content="ND1000 쓰면 1/125초가 몇 초? ND 단수별 셔터스피드 환산표">
+<meta property="og:description" content="ND8·ND64·ND1000을 끼우면 셔터스피드가 몇 초로 바뀌는지 1/125초·1/30초·1/8초 기준 환산표와 거꾸로 필요한 ND를 고르는 계산법을 정리했습니다.">
+<meta property="og:url" content="https://landing.exifnd.com/ko/nd-filter-shutter-conversion/">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:card" content="summary">
+<link rel="alternate" type="application/rss+xml" title="ExifLens Landing" href="https://landing.exifnd.com/rss.xml">
+<script>(function(){var r=document.documentElement;try{var t=localStorage.getItem('theme');if(t==='light'||t==='dark')r.setAttribute('data-theme',t);}catch(e){}r.className+=' js';})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet"><link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" href="/assets/icon.png" type="image/png" sizes="512x512"><link rel="apple-touch-icon" href="/assets/apple-icon.png">
+<link rel="stylesheet" href="/assets/style.css?v=84bc209e">
+<script>(function(){try{var u=new URL(location.href);if(u.searchParams.get('dev')==='lp-sohhnt6c8o'){document.cookie='dev_exclude=1;path=/;max-age=31536000;SameSite=Lax';u.searchParams.delete('dev');history.replaceState(null,'',u.pathname+u.search+u.hash);}}catch(e){}})();window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR", "DE", "GR", "HU", "IE", "IT", "LV", "LT", "LU", "MT", "NL", "PL", "PT", "RO", "SK", "SI", "ES", "SE", "IS", "LI", "NO", "GB", "CH"],wait_for_update:500});
+gtag('js',new Date());
+if(['localhost','127.0.0.1','[::1]'].indexOf(location.hostname)===-1&&!/(?:^|; )dev_exclude=1(?:;|$)/.test(document.cookie)){var s=document.createElement('script');s.async=true;s.src='https://www.googletagmanager.com/gtag/js?id=G-NV0DZ95ZEG';document.head.appendChild(s);gtag('config','G-NV0DZ95ZEG');}else{window['ga-disable-G-NV0DZ95ZEG']=true;}</script>
+<script type="application/ld+json">[{"@context": "https://schema.org", "@type": "Article", "headline": "ND1000 쓰면 1/125초가 몇 초가 될까: ND 단수별 환산표", "description": "ND8·ND64·ND1000을 끼우면 셔터스피드가 몇 초로 바뀌는지 1/125초·1/30초·1/8초 기준 환산표와 거꾸로 필요한 ND를 고르는 계산법을 정리했습니다.", "inLanguage": "ko", "datePublished": "2026-11-17", "dateModified": "2026-11-17", "author": {"@type": "Organization", "name": "ExifLens", "url": "https://exifnd.com"}, "publisher": {"@type": "Organization", "name": "ExifLens", "url": "https://exifnd.com"}, "mainEntityOfPage": "https://landing.exifnd.com/ko/nd-filter-shutter-conversion/"}, {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "ND1000은 정확히 1,000배인가요?", "acceptedAnswer": {"@type": "Answer", "text": "스톱 기준으로는 10스톱(1,024배)입니다. 1,000배로 계산해도 오차가 2~3% 안팎이라 노출에는 영향이 거의 없습니다."}}, {"@type": "Question", "name": "ND 필터를 끼우면 조리개나 ISO도 바꿔야 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "아닙니다. 셔터 시간만 환산하면 됩니다. 시간을 늘리기 싫을 때만 조리개를 열거나 ISO를 올려 균형을 맞춥니다."}}, {"@type": "Question", "name": "30초가 넘는 노출은 어떻게 하나요?", "acceptedAnswer": {"@type": "Answer", "text": "벌브(B) 모드로 바꾸고 타이머 리모컨이나 카메라의 인터벌 기능으로 시간을 재면서 셔터를 누르고 있는 방식으로 촬영합니다."}}]}]</script>
+</head>
+<body>
+<nav class="nav"><div class="nav-in"><a class="nav-logo" href="https://exifnd.com/ko?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=nd-filter-shutter-conversion&amp;utm_content=header">Exif<span>Lens</span></a><ul class="nav-links"><li><a href="/">전체 글</a></li><li><a href="https://exifnd.com/ko/tools?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=nd-filter-shutter-conversion&amp;utm_content=nav-tools">도구</a></li><li><a href="https://exifnd.com/ko/guides?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=nd-filter-shutter-conversion&amp;utm_content=nav-guides">가이드</a></li><li><a href="https://exifnd.com/ko/blog?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=nd-filter-shutter-conversion&amp;utm_content=nav-blog">블로그</a></li></ul><button class="theme-toggle" id="themeToggle" type="button" aria-label="화면 모드 전환" title="화면 모드 전환"><svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg><svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button></div></nav>
+<main class="wrap page">
+<article>
+<h1>ND1000 쓰면 1/125초가 몇 초가 될까: ND 단수별 환산표</h1>
+<p class="meta">업데이트: 2026-11-17</p>
+
+<div class="answer"><strong>한 줄 답</strong><p><strong>ND1000은 빛을 약 10스톱 줄이므로 셔터 시간이 약 1,000배(정확히는 1,024배) 길어집니다.</strong> 1/125초에 ND1000을 끼우면 약 8초, 1/250초면 약 4초가 됩니다. 아래 표에서 내 노출과 ND 단수를 만나는 칸을 찾으면 됩니다.</p></div>
+<aside class="cta cta-top"><p class="cta-title">표에 없는 값은 계산기에 넣으세요</p><p>현재 노출과 ND 단수를 넣으면 환산된 셔터스피드를 바로 계산해 줍니다.</p><p class="cta-btns"><a class="btn" href="https://exifnd.com/ko/tools/exposure-stops-calculator?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=nd-filter-shutter-conversion&amp;utm_content=top-1">노출 스톱 계산기 열기 →</a> <a class="btn ghost" href="https://exifnd.com/ko/guides/exposure-calculator-nd-filter-long-exposure?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=nd-filter-shutter-conversion&amp;utm_content=top-2">장노출 ND 계산 가이드 →</a> </p></aside>
+
+<h2>ND 단수별 셔터스피드 환산표</h2>
+<p>기준 셔터스피드(ND 없이 맞춘 노출)에 ND 배수를 곱한 값입니다. 조리개와 ISO는 그대로 두고 필터만 끼운다고 가정했습니다.</p>
+<div class="tablewrap"><table><thead><tr><th>ND 단수</th><th>줄어드는 빛</th><th>1/125초 기준</th><th>1/30초 기준</th><th>1/8초 기준</th></tr></thead><tbody>
+<tr><td>ND4</td><td>2스톱</td><td>약 1/30초</td><td>약 1/8초</td><td>약 1/2초</td></tr>
+<tr><td>ND8</td><td>3스톱</td><td>약 1/16초</td><td>약 1/4초</td><td>1초</td></tr>
+<tr><td>ND16</td><td>4스톱</td><td>약 1/8초</td><td>약 1/2초</td><td>2초</td></tr>
+<tr><td>ND64</td><td>6스톱</td><td>약 1/2초</td><td>약 2초</td><td>8초</td></tr>
+<tr><td>ND256</td><td>8스톱</td><td>약 2초</td><td>약 8.5초</td><td>32초</td></tr>
+<tr><td>ND1000</td><td>10스톱</td><td>약 8초</td><td>약 34초</td><td>약 2분 8초</td></tr>
+</tbody></table></div>
+<p>ND1000은 이름상 1,000배지만 스톱으로는 10스톱, 곧 2<sup>10</sup>=1,024배입니다. 1,000배로 계산하면 1/125초가 8.0초, 1,024배로 계산하면 약 8.2초가 되어 차이는 2.4% 정도입니다. 실제 촬영에서는 같다고 봐도 됩니다.</p>
+
+<h2>ND 숫자가 세 가지 방식으로 적혀 있습니다</h2>
+<p>제조사마다 표기가 달라 같은 필터가 다르게 보입니다. 아래처럼 서로 바꿔 읽으면 됩니다.</p>
+<div class="tablewrap"><table><thead><tr><th>배수 표기</th><th>농도 표기</th><th>스톱 표기</th></tr></thead><tbody>
+<tr><td>ND8</td><td>ND0.9</td><td>3스톱</td></tr>
+<tr><td>ND64</td><td>ND1.8</td><td>6스톱</td></tr>
+<tr><td>ND1000</td><td>ND3.0</td><td>10스톱</td></tr>
+</tbody></table></div>
+<p>농도 표기는 0.3이 1스톱입니다. 3.0이면 10스톱이라고 외워 두면 편합니다.</p>
+
+<h2>계산 예시 1: 맑은 낮에 ND1000</h2>
+<p>f/8, ISO 100, 1/250초로 맞은 풍경에 ND1000을 끼우면 1/250 × 1,024 ≈ <strong>4초</strong>가 됩니다. 구름이 흐르는 모양을 길게 늘이는 데 알맞은 길이입니다.</p>
+
+<h2>계산 예시 2: 원하는 셔터 시간에서 거꾸로 ND 고르기</h2>
+<p>ND 없이 1/60초가 나오는 장면을 <strong>30초</strong> 노출로 찍고 싶다면, 먼저 몇 배가 필요한지 구합니다. 30 ÷ (1/60) = 1,800배입니다. 스톱으로 바꾸면 log<sub>2</sub>1,800 ≈ 10.8스톱입니다.</p>
+<p>ND1000(10스톱)만 끼우면 약 17초라 부족하고, 11스톱 ND(ND2000)를 끼우면 약 34초가 됩니다. 필터를 새로 사지 않고 맞추려면 조리개를 한 단계 조여 f/8에서 f/11로 가면 시간이 두 배가 되어 ND1000으로 약 34초를 만들 수 있습니다. 조리개를 조이면 회절로 선명도가 조금 떨어질 수 있으니 장면에 맞춰 고르세요.</p>
+
+<h2>계산 예시 3: ND를 겹쳐 쓸 때</h2>
+<p>ND는 스톱을 더하면 됩니다. ND64(6스톱)와 ND8(3스톱)을 겹치면 9스톱, 곧 512배입니다. 1/60초 노출이면 512/60 ≈ <strong>8.5초</strong>입니다. 다만 필터를 겹치면 비네팅과 색 치우침이 커질 수 있습니다.</p>
+
+<h2>장노출에서 놓치기 쉬운 점</h2>
+<ul>
+<li><strong>노출은 필터를 끼우기 전에 맞춥니다.</strong> 강한 ND를 끼운 채로 측광하면 값이 흔들리거나 화면이 보이지 않아 초점도 어렵습니다. 맞춘 값에 환산표를 적용하세요.</li>
+<li><strong>색 치우침:</strong> 강한 ND일수록 사진이 푸르거나 붉게 치우칠 수 있습니다. RAW로 촬영하고 화이트밸런스로 보정하는 방법이 안전합니다.</li>
+<li><strong>30초를 넘는 시간:</strong> 카메라의 최대 셔터 시간(보통 30초)을 넘으면 벌브(B) 모드와 타이머 리모컨이 필요합니다.</li>
+<li><strong>삼각대와 흔들림:</strong> 몇 초 이상 노출에서는 삼각대와 2초 셔터 지연, 또는 리모컨이 기본입니다.</li>
+</ul>
+
+<h2>자주 묻는 질문</h2>
+<details><summary>ND1000은 정확히 1,000배인가요?</summary><div><p>스톱 기준으로는 10스톱(1,024배)입니다. 1,000배로 계산해도 오차가 2~3% 안팎이라 노출에는 영향이 거의 없습니다.</p></div></details>
+<details><summary>ND 필터를 끼우면 조리개나 ISO도 바꿔야 하나요?</summary><div><p>아닙니다. 셔터 시간만 환산하면 됩니다. 시간을 늘리기 싫을 때만 조리개를 열거나 ISO를 올려 균형을 맞춥니다.</p></div></details>
+<details><summary>30초가 넘는 노출은 어떻게 하나요?</summary><div><p>벌브(B) 모드로 바꾸고 타이머 리모컨이나 카메라의 인터벌 기능으로 시간을 재면서 셔터를 누르고 있는 방식으로 촬영합니다.</p></div></details>
+
+<aside class="cta cta-bottom"><p class="cta-title">표에 없는 값은 계산기에 넣으세요</p><p>현재 노출과 ND 단수를 넣으면 환산된 셔터스피드를 바로 계산해 줍니다.</p><p class="cta-btns"><a class="btn" href="https://exifnd.com/ko/tools/exposure-stops-calculator?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=nd-filter-shutter-conversion&amp;utm_content=bottom-1">노출 스톱 계산기 열기 →</a> <a class="btn ghost" href="https://exifnd.com/ko/guides/exposure-calculator-nd-filter-long-exposure?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=nd-filter-shutter-conversion&amp;utm_content=bottom-2">장노출 ND 계산 가이드 →</a> </p></aside>
+<h2>함께 보면 좋은 글</h2>
+<ul class="related"><li><a href="/ko/depth-of-field/">피사계 심도란? 선명한 범위를 조절하는 법</a></li><li><a href="/ko/flash-guide-number/">플래시 가이드넘버 계산법: 거리와 조리개값 구하기</a></li><li><a href="/ko/remove-exif-gps/">사진 위치정보(GPS) 지우는 법: 올리기 전에 EXIF 삭제</a></li><li><a href="/ko/shutter-count-check/">셔터카운트 확인하는 법: 사진 파일 하나면 됩니다</a></li><li><a href="/ko/srgb-vs-adobe-rgb/">sRGB vs Adobe RGB: 어떤 색 공간을 써야 할까?</a></li><li><a href="/ko/wide-vs-telephoto/">광각과 망원의 차이: 화각과 활용 기준</a></li><li><a href="https://exifnd.com/ko/guides/choosing-the-right-nd-filter?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=nd-filter-shutter-conversion&amp;utm_content=related">올바른 ND 필터 선택법</a></li><li><a href="https://exifnd.com/ko/guides/nd-filter-types-explained?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=nd-filter-shutter-conversion&amp;utm_content=related">ND 필터 종류 완벽 정리</a></li></ul>
+</article>
+</main>
+<footer><div class="wrap"><p>ExifLens는 사진 EXIF 확인과 촬영 계산 도구를 무료로 제공합니다.</p><p><a href="https://exifnd.com/ko?utm_source=landing&amp;utm_medium=referral&amp;utm_campaign=nd-filter-shutter-conversion&amp;utm_content=footer">exifnd.com 홈</a> · <a href="https://exifnd.com/ko/privacy">개인정보 처리방침</a> · <a href="/">전체 글 보기</a></p></div></footer>
+<script>(function(){var b=document.getElementById('themeToggle');if(!b)return;b.addEventListener('click',function(){var r=document.documentElement,t=r.getAttribute('data-theme');if(!t){t=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}var n=t==='dark'?'light':'dark';r.setAttribute('data-theme',n);try{localStorage.setItem('theme',n);}catch(e){}});})();</script>
+<script>(function(){var D={"alt": {"ko": "이 글은 한국어로도 읽을 수 있습니다.", "en": "This article is also available in English.", "es": "Este artículo también está disponible en español.", "ja": "この記事は日本語でも読めます。"}, "link": {"ko": "한국어로 보기 →", "en": "Read in English →", "es": "Leer en español →", "ja": "日本語で読む →"}, "only": {"ko": "이 글은 {L}로만 제공됩니다.", "en": "This article is only available in {L}.", "es": "Este artículo solo está disponible en {L}.", "ja": "この記事は{L}のみで提供されています。"}, "name": {"ko": {"ko": "한국어", "en": "영어", "es": "스페인어", "ja": "일본어"}, "en": {"ko": "Korean", "en": "English", "es": "Spanish", "ja": "Japanese"}, "es": {"ko": "coreano", "en": "inglés", "es": "español", "ja": "japonés"}, "ja": {"ko": "韓国語", "en": "英語", "es": "スペイン語", "ja": "日本語"}}, "hub": {"ko": "전체 글 보기", "en": "All articles", "es": "Todos los artículos", "ja": "記事一覧"}},P="ko",A={},L=['ko','en','es','ja'],s=null;try{s=localStorage.getItem('lh_lang');}catch(e){}var v=L.indexOf(s)>-1?s:(function(){var n=String((navigator.languages&&navigator.languages[0])||navigator.language||'').toLowerCase().slice(0,2);return L.indexOf(n)>-1?n:'en';})();if(v===P)return;var m=document.querySelector('main');if(!m)return;var d=document.createElement('div');d.className='lang-banner';d.setAttribute('role','note');var h;if(A[v]){h=D.alt[v]+' <a href="'+A[v]+'" hreflang="'+v+'">'+D.link[v]+'</a>';}else{h=D.only[v].replace('{L}',D.name[v][P])+' <a href="/">'+D.hub[v]+'</a>';}d.innerHTML=h;m.insertBefore(d,m.firstChild);})();</script>
+</body>
+</html>
