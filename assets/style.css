@@ -96,6 +96,7 @@ h1,h2,h3,h4,.hc-title,.lens-name{word-break:keep-all;overflow-wrap:break-word}
 .footer-col h4{font-size:.85rem;letter-spacing:1px;text-transform:uppercase;margin-bottom:1.5rem;color:var(--fg)}
 .footer-col ul{list-style:none;padding:0}.footer-col li{margin-bottom:.8rem}
 .footer-col a{color:var(--muted);text-decoration:none;font-size:.9rem;transition:color .3s}.footer-col a:hover{color:var(--accent)}
+.vc{font-size:.8rem;opacity:.8}.footer-bottom .vc{margin-left:.8rem}
 .footer-bottom{max-width:1200px;margin:0 auto;padding-top:2rem;border-top:1px solid var(--line);text-align:center;font-size:.85rem;color:var(--muted)}
 @media (prefers-reduced-motion:reduce){.review-card,.guide-card,.hero-card{transition:none}.review-card:hover,.guide-card:hover,.hero-card:hover{transform:none}}
 @media (max-width:900px){.nav{padding:1rem 1.5rem}.nav-links{display:none}.theme-toggle{margin-left:auto}.hero{padding:8rem 1.5rem 4rem}.brand-filter{padding:2rem 1.5rem}.compare-section,.buying-guides{padding:4rem 1.5rem}.reviews-section{padding:4rem 1.5rem}.newsletter{padding:4rem 1.5rem}.site-footer{padding:3rem 1.5rem 2rem}.footer-grid{grid-template-columns:1fr}.brand-list{gap:.8rem}.brand-item{padding:.6rem 1.2rem}.review-grid{grid-template-columns:1fr}}
