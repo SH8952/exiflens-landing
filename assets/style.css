@@ -109,3 +109,21 @@ h1,h2,h3,h4,.hc-title,.lens-name{word-break:keep-all;overflow-wrap:break-word}
 .lang-banner a{font-weight:600;color:var(--accent-strong);margin-left:6px}
 .otherlangs{margin:-4px 0 14px;font-size:14px;color:var(--muted)}
 .otherlangs a{margin-left:10px;color:var(--accent-strong);font-weight:600}
+/* 모바일 최적화(허브): 화면 폭에 따라 유동적으로 줄어드는 크기 사용 */
+@media (max-width:900px){.footer-grid{grid-template-columns:1fr 1fr;gap:1.4rem 1rem;margin-bottom:1.6rem}.footer-brand{grid-column:1/-1}.footer-brand p{margin-top:.5rem;line-height:1.6}.site-footer{padding:2rem 1.25rem 1.2rem}.footer-col h4{margin-bottom:.7rem}.footer-col li{margin-bottom:.5rem}.footer-bottom{padding-top:1.1rem}}
+@media (max-width:600px){
+.hero{padding:6.5rem 1.1rem 3rem}
+.hero h1{font-size:clamp(1.3rem,6.4vw,1.8rem);margin-bottom:1rem}
+.hero-lead{font-size:clamp(.74rem,3.3vw,.95rem);margin-bottom:2rem}
+.brand-filter{padding:1.4rem .8rem}.brand-inner h3{margin-bottom:1rem}
+.brand-list{flex-wrap:nowrap;gap:.35rem;justify-content:center}
+.brand-item{flex:1 1 auto;min-width:0;padding:.55rem .3rem;font-size:clamp(.7rem,3.6vw,.92rem);white-space:nowrap;text-align:center}
+.compare-section{padding:2.5rem .9rem}.section-header{margin-bottom:1.4rem}.section-header h2{font-size:1.5rem}
+.lens-table{min-width:0}
+.lens-table th:nth-child(3),.lens-table td:nth-child(3),.lens-table th:nth-child(4),.lens-table td:nth-child(4){display:none}
+.lens-table th,.lens-table td{padding:.9rem 1rem}
+.buying-guides{padding:2.5rem .9rem}
+.guide-grid{grid-template-columns:1fr 1fr;gap:.7rem}
+.guide-card{padding:1rem .9rem}.guide-num{font-size:1.5rem;margin-bottom:.5rem}.guide-card h3{font-size:clamp(.82rem,3.8vw,1rem);line-height:1.35;margin-bottom:.35rem}.guide-card p{font-size:clamp(.7rem,3.2vw,.8rem);line-height:1.5;margin-bottom:.5rem}.guide-meta{font-size:.7rem}
+.footer-bottom{font-size:.75rem}
+}
