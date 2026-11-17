@@ -126,4 +126,9 @@ h1,h2,h3,h4,.hc-title,.lens-name{word-break:keep-all;overflow-wrap:break-word}
 .guide-grid{grid-template-columns:1fr 1fr;gap:.7rem}
 .guide-card{padding:1rem .9rem}.guide-num{font-size:1.5rem;margin-bottom:.5rem}.guide-card h3{font-size:clamp(.82rem,3.8vw,1rem);line-height:1.35;margin-bottom:.35rem}.guide-card p{font-size:clamp(.7rem,3.2vw,.8rem);line-height:1.5;margin-bottom:.5rem}.guide-meta{font-size:.7rem}
 .footer-bottom{font-size:.75rem}
+.footer-brand p{word-break:keep-all;text-wrap:balance;font-size:clamp(.78rem,3.6vw,.9rem)}
+.footer-bottom .vc{display:block;margin:.35rem 0 0;white-space:nowrap;font-size:clamp(.58rem,3vw,.75rem)}
+.newsletter{padding:2.8rem 1.1rem}
+.newsletter h2{font-size:clamp(1.25rem,5.6vw,1.7rem);line-height:1.35;margin-bottom:.8rem;text-wrap:balance;word-break:keep-all}
+.newsletter p{font-size:clamp(.78rem,3.5vw,.95rem);line-height:1.65;margin-bottom:1.4rem;text-wrap:balance;word-break:keep-all}
 }
