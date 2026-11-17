@@ -132,3 +132,16 @@ h1,h2,h3,h4,.hc-title,.lens-name{word-break:keep-all;overflow-wrap:break-word}
 .newsletter h2{font-size:clamp(1.25rem,5.6vw,1.7rem);line-height:1.35;margin-bottom:.8rem;text-wrap:balance;word-break:keep-all}
 .newsletter p{font-size:clamp(.78rem,3.5vw,.95rem);line-height:1.65;margin-bottom:1.4rem;text-wrap:balance;word-break:keep-all}
 }
+/* 푸터 정보 가로 배치, 모바일 상단 메뉴, 글 페이지 푸터 가운데 정렬 */
+.footer-grid{grid-template-columns:1fr auto}
+.footer-col ul{display:flex;flex-wrap:wrap;gap:.4rem 1.6rem}.footer-col li{margin-bottom:0}
+footer:not(.site-footer){text-align:center}
+footer:not(.site-footer) p{word-break:keep-all;text-wrap:balance}
+@media (max-width:900px){
+.footer-grid{grid-template-columns:1fr}
+.footer-col ul{gap:.3rem 1.1rem}
+.nav{padding:.7rem clamp(.6rem,3vw,1rem)}.nav-in{gap:.3rem}.nav-logo{font-size:clamp(1.05rem,5vw,1.3rem)}
+.nav-links{display:flex;gap:clamp(.35rem,2vw,1rem);margin:0 .1rem 0 auto;padding:0}
+.nav-links a{font-size:clamp(.6rem,3vw,.85rem);white-space:nowrap}
+.theme-toggle{margin-left:0;width:clamp(28px,8.5vw,34px);height:clamp(28px,8.5vw,34px)}
+}
