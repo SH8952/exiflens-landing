@@ -5,8 +5,24 @@
     <link>https://landing.exifnd.com/</link>
     <description>사진 설정·EXIF 궁금증에 바로 답하는 짧은 글 (ko/en/es/ja)</description>
     <language>ko</language>
-    <lastBuildDate>Fri, 20 Nov 2026 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 09:00:00 +0900</lastBuildDate>
     <atom:link href="https://landing.exifnd.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ISO를 올리면 셔터스피드를 몇 배 빠르게 쓸 수 있을까</title>
+      <link>https://landing.exifnd.com/ko/iso-shutter-speed-conversion/</link>
+      <guid isPermaLink="true">https://landing.exifnd.com/ko/iso-shutter-speed-conversion/</guid>
+      <pubDate>Tue, 24 Nov 2026 09:00:00 +0900</pubDate>
+      <description>ISO를 한 단계(2배) 올리면 같은 밝기에서 셔터를 2배 빠르게 쓸 수 있습니다. ISO 100의 1/30초를 1/250초로 만들 ISO와 상황별 환산표를 정리했습니다.</description>
+      <dc:language>ko</dc:language>
+    </item>
+    <item>
+      <title>28mm 렌즈로 f/8 풍경 촬영할 때 초점은 몇 m에 맞춰야 할까</title>
+      <link>https://landing.exifnd.com/ko/28mm-f8-landscape-focus-distance/</link>
+      <guid isPermaLink="true">https://landing.exifnd.com/ko/28mm-f8-landscape-focus-distance/</guid>
+      <pubDate>Tue, 24 Nov 2026 09:00:00 +0900</pubDate>
+      <description>풀프레임 28mm 렌즈를 f/8로 풍경 촬영할 때는 약 3.3m에 초점을 맞추면 약 1.65m부터 무한대까지 선명합니다. 초점거리·조리개별 거리표와 계산법을 정리했습니다.</description>
+      <dc:language>ko</dc:language>
+    </item>
     <item>
       <title>2400만 화소 크롭바디는 f/몇부터 회절로 흐려질까</title>
       <link>https://landing.exifnd.com/ko/crop-body-diffraction-f-number/</link>
