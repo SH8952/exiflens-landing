@@ -5,8 +5,24 @@
     <link>https://landing.exifnd.com/</link>
     <description>사진 설정·EXIF 궁금증에 바로 답하는 짧은 글 (ko/en/es/ja)</description>
     <language>ko</language>
-    <lastBuildDate>Tue, 24 Nov 2026 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 09:00:00 +0900</lastBuildDate>
     <atom:link href="https://landing.exifnd.com/rss.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>2400만 화소 사진은 몇 cm까지 인쇄할 수 있을까</title>
+      <link>https://landing.exifnd.com/ko/print-size-by-megapixel/</link>
+      <guid isPermaLink="true">https://landing.exifnd.com/ko/print-size-by-megapixel/</guid>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0900</pubDate>
+      <description>6000x4000(2400만 화소) 사진은 300dpi로 약 50.8x33.9cm, 200dpi로 약 76.2x50.8cm까지 인쇄됩니다. 화소별 최대 크기와 A4·A3·A2 필요 픽셀을 표로 정리했습니다.</description>
+      <dc:language>ko</dc:language>
+    </item>
+    <item>
+      <title>손떨림 보정을 켜면 안전 셔터스피드가 몇 단 늘어날까</title>
+      <link>https://landing.exifnd.com/ko/image-stabilization-safe-shutter/</link>
+      <guid isPermaLink="true">https://landing.exifnd.com/ko/image-stabilization-safe-shutter/</guid>
+      <pubDate>Fri, 27 Nov 2026 09:00:00 +0900</pubDate>
+      <description>손떨림 보정은 1스톱마다 안전 셔터 시간을 2배로 늘립니다. 풀프레임 50mm는 1/50초가 3스톱이면 약 1/6초, 4스톱이면 약 1/3초입니다. 초점거리별 환산표를 정리했습니다.</description>
+      <dc:language>ko</dc:language>
+    </item>
     <item>
       <title>ISO를 올리면 셔터스피드를 몇 배 빠르게 쓸 수 있을까</title>
       <link>https://landing.exifnd.com/ko/iso-shutter-speed-conversion/</link>
